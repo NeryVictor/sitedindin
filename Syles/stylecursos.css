@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Ubuntu;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Cabeçalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E948A;
+    height: 7.313rem;
+    width: 100%;
+    box-shadow: 0px 0.188rem 0.438rem rgba(0, 0, 0, 0.25);
+}
+
+#navheader{
+    display: flex;
+    margin-right: 6.25rem;
+}
+
+.textheader{
+    margin-left: 0.688rem;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+}
+
+#logobanner{
+    display: flex;
+    margin-left: 6.25rem;
+}
+
+header img{
+    border: 0;   
+    margin: 0; 
+}
+
+#ulheader{
+    display: flex;
+    width: 100%;
+}
+
+#liheader{
+    color: #FDFDFD;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#liheaderblog{
+    margin-inline: 20px;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+/* Fim cabeçalho */
+
+/* Principal */
+
+h1{
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    margin-top: 5.125rem;
+    margin-left: 5.125rem;
+}
+
+#p1{
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+    margin-left: 5.125rem;
+}
+
+#art1{
+    display: flex;
+    flex-direction: column;
+}
+
+#sec1{
+    display: flex;
+    flex-direction: initial;
+    align-items: flex-start;
+    margin-left: 5.125rem;
+    margin-right: 5.125rem;
+    padding-top: 6.25rem;
+    padding-bottom: 4.25rem;
+}
+
+#sec2{
+    display: flex;
+    flex-direction: initial;
+    align-items: flex-start;
+    margin-left: 5.125rem;
+    margin-right: 5.125rem;    
+    border-top: 0.3rem solid #c4c4c4;
+    border-bottom: 0.3rem solid #c4c4c4;
+    padding-top: 6.25rem;
+    padding-bottom: 4.25rem;
+}
+
+
+#imgart{
+    margin-right: 3.3rem;
+    max-width: 23.75rem;
+    max-height: 23.813;
+}
+
+#imgart2{
+    margin-right: 3.3rem;
+    max-width:  23.75rem;
+    max-height: 29rem;
+}
+
+
+#h2a{
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin-bottom: 2.313rem;
+}
+
+#p2{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 2.313rem;
+    
+}
+
+#span2{
+    color: #fff;
+    border: 0.06rem solid;
+    border-radius: 3.875rem;
+    background-color: #2E948A;
+    padding: 0.5rem 1.5rem;
+
+}
+
+/* Fim Principal */
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E948A;
+    height: 12.938rem;
+}
+
+#secfooter1{
+    display: flex;
+    align-items: center;
+    margin-left: 6.25rem;
+}
+
+#p7{
+    color: #fff;
+}
+
+#secfooter2{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#secfooter3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 6.25rem;
+}
+
+#lifooter{
+    display: flex;
+    flex-direction: column;
+}
+
+#lia{
+    margin: 0.125rem;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+#span4{
+    margin: 0.625rem;
+    border: 0.125rem solid #fff;
+    border-radius: 3.875rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.875rem 2.563rem;
+    font-size: 1.25rem;
+}
+/* Fim rodapé */

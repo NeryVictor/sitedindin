@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Ubuntu;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Cabeçalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E948A;
+    height: 7.313rem;
+    width: 100%;
+    box-shadow: 0px 0.188rem 0.438rem rgba(0, 0, 0, 0.25);
+}
+
+#navheader{
+    display: flex;
+    margin-right: 6.25rem;
+}
+
+.textheader{
+    margin-left: 0.688rem;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+}
+
+#logobanner{
+    display: flex;
+    margin-left: 6.25rem;
+}
+
+header img{
+    border: 0;   
+    margin: 0; 
+}
+
+#ulheader{
+    display: flex;
+    width: 100%;
+}
+
+#liheader{
+    color: #FDFDFD;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#liheaderblog{
+    margin-inline: 20px;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+/* Fim cabeçalho */
+
+#art1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4.125rem;
+}
+
+#sec1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.813rem;
+    
+}
+
+#h1a{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 3.75rem;
+    color: #FF4081;
+}
+
+#p1{
+    margin-top: 1.188rem;
+    font-family: Ubuntu;
+    font-size: 1.688rem;
+    line-height: 1.938rem;
+    color: #555555;
+}
+
+#span1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    margin-top: 2.375rem;
+    border: 0.125rem solid #FF4081;
+    border-radius: 3.875rem;
+    font-size: 1.688rem;
+    color: #FF4081;
+    text-align: center;
+    max-width: 18.063rem
+}
+
+#sec2{
+    margin-top: 8.438rem;
+}
+
+#imgbanner{
+    max-width: 31.313rem;
+    max-height: 31.938rem;
+}
+
+#art2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F7F7;
+    justify-content: space-evenly;
+}
+
+#sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h2a{
+    margin-top: 2.813rem;
+    font-family: Ubuntu;
+    font-size: 25px;
+    line-height: 1.563rem;
+    color: #FF4081;
+}
+#p2{
+    margin-top: 1.438rem;
+    text-align: center;
+}
+#p3{
+    margin-top: 1.438rem;
+    text-align: center;
+}
+#p4{
+    margin-top: 1.438rem;
+    text-align: center;
+}
+
+#span2{
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 1.625rem;
+    font-family: Ubuntu;
+    font-size: 1.25rem;
+    padding: 0.75rem 3rem;
+    color: #FFFFFF;
+    background-color: #FF4081;
+    border-radius: 3.875rem;
+    max-height: 3.188rem;
+}
+
+#h1b{
+    padding-top: 7.438rem;
+    margin-left: 8rem;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+
+#sec6{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-row: auto;
+    margin-top: 4.875rem;
+}
+
+#div1{
+    display: flex;
+    padding: 5.375rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#img4{
+    border: 3px solid #FF4081;
+    border-radius: 50%;
+    border-spacing: 104px 104px;
+    margin-right: 1.563rem;
+}
+
+#art4{
+    display: flex;
+    flex-direction: column;
+    background: #F7F7F7;
+    padding-bottom: 3.313rem;
+}
+
+#h2a{
+    margin-top: 0.688rem;
+    color: #009688;
+    font-size: 1.688rem;
+    
+}
+
+#p5{
+    text-align: justify;
+    font-size: 1.125rem;
+    margin-bottom: 6.313rem;
+}
+
+#sec7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.563rem;
+    text-align: justify;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+#p6{
+    margin: auto;
+    border: 0.125rem solid #FF4081;
+    border-radius: 3.875rem;
+    font-size: 1.563rem;
+    color: #FF4081;
+    text-align: center;
+    max-width: 18.063rem;
+}
+
+
+#span3{
+    margin: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    border: 0.125rem solid #FF4081;
+    border-radius: 3.875rem;
+    font-size: 1.688rem;
+    color: #FF4081;
+    text-align: center;
+    max-width: 18.063rem
+}
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2E948A;
+    height: 12.938rem;
+}
+
+#secfooter1{
+    display: flex;
+    align-items: center;
+}
+
+#p7{
+    color: #fff;
+}
+
+#secfooter2{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#secfooter3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#lifooter{
+    display: flex;
+    flex-direction: column;
+}
+
+#lia{
+    margin: 0.125rem;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+#span4{
+    margin: 0.625rem;
+    border: 0.125rem solid #fff;
+    border-radius: 3.875rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.875rem 2.563rem;
+    font-size: 1.25rem;
+}
+/* Fim rodapé */
