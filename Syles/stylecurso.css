@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Ubuntu;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Cabeçalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E948A;
+    height: 7.313rem;
+    width: 100%;
+    box-shadow: 0px 0.188rem 0.438rem rgba(0, 0, 0, 0.25);
+}
+
+#navheader{
+    display: flex;
+    margin-right: 6.25rem;
+}
+
+.textheader{
+    margin-left: 0.688rem;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+}
+
+#logobanner{
+    display: flex;
+    margin-left: 6.25rem;
+}
+
+header img{
+    border: 0;   
+    margin: 0; 
+}
+
+#ulheader{
+    display: flex;
+    width: 100%;
+}
+
+#liheader{
+    color: #FDFDFD;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#liheaderblog{
+    margin-inline: 1.25rem;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+/* Fim cabeçalho */
+
+
+#art1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+#div1{
+    margin-right: 2.75rem;
+}
+#div2{
+    margin-left: 2.75rem;
+}
+
+h1{
+    font-size: 3.438rem;
+    line-height: 3.938rem;
+    color: #FF4081;
+}
+
+#p1{
+    text-align: justify;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 1.25rem;
+}
+
+#img1{
+    width: 23.75rem;
+    height: 21rem;    
+}
+
+#art2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    background: #F7F7F7;
+}
+
+#sec1{
+    display: flex;
+    justify-content: space-around;
+    padding: 4.3rem 12.5rem;
+}
+
+#sec2{
+    display: flex;
+    justify-content: space-around;
+    padding: 4.3rem 12.5rem;
+    border-top: 0.188rem solid #c4c4c4;
+    border-bottom: 0.188rem solid #c4c4c4;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 6rem;
+}
+
+#h2a{
+    font-size: 2.188rem;
+    line-height: 2.5rem;
+    color: #FF4081;
+}
+
+#p2{
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+}
+
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E948A;
+    height: 12.938rem;
+}
+
+#secfooter1{
+    display: flex;
+    align-items: center;
+    margin-left: 6.25rem;
+}
+
+#p7{
+    color: #fff;
+}
+
+#secfooter2{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#span1a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 6.25rem;
+    margin: 0.625rem;
+    border: 0.125rem solid #fff;
+    border-radius: 3.875rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.875rem 2.563rem;
+    font-size: 1.25rem;
+    
+}
+#secfooter3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 6.25rem;
+}
+
+#lifooter{
+    display: flex;
+    flex-direction: column;
+}
+
+#lia{
+    margin: 0.125rem;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+/* Fim rodapé */
